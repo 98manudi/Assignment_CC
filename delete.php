@@ -11,7 +11,7 @@ if(isset($_POST['delete'])){
 
     if($query_run){
         echo '<script> alert("Date deleted");<script>';
-        header("location:retrive.php");
+        header("location:retriveList.php");
     }else{
         echo '<script> alert("Data not deleted");<script>';
     }
