@@ -5,7 +5,7 @@
 		// username => root
 		// password => empty
 		// database name => books
-		$conn = mysqli_connect("localhost", "root", "", "book");
+		$conn = mysqli_connect("assignment-2-db.cpcdcyly6o6m.us-east-1.rds.amazonaws.com","admin","admin123","assignment");
 		
 		// Check connection
 		if($conn === false){
