@@ -1,7 +1,7 @@
 <?php
 
-$connection = mysqli_connect("localhost","root","",);
-$db = mysqli_select_db($connection, 'book');
+$connection = mysqli_connect("assignment-2-db.cpcdcyly6o6m.us-east-1.rds.amazonaws.com","admin","admin123",);
+$db = mysqli_select_db($connection, 'assignment');
 
 if(isset($_POST['delete'])){
     $id = $_POST['ID'];
