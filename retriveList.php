@@ -52,7 +52,10 @@
                                      <th><input type="submit"  name="edit" class="btn btn-success" value="EDIT"></th>
                                 </form>
 
-                                <th> <a href="" class="btn btn-danger">DELETE</a></th>
+                               <form action="delete.php" method="POST">
+                                    <input type="hidden" name="ID" value="<?php echo $row['ID']?>">
+                                    <th><input type="submit"  name="delete" class="btn btn-danger" value="DELETE"></th>
+                                </form>
                                 
                             </tr>
                         </tbody>
